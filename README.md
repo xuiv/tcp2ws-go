@@ -9,6 +9,10 @@ proxied to the upstream WebSocket destination
 
 ## Install
 TODO: Install instructions
+For Openwrt:
+```
+env GOOS=linux GOARCH=mipsle GOMIPS=softfloat go build -a -ldflags "-s -w" -o tcp2ws.mipsle
+```
 
 ## Usage
 ```
