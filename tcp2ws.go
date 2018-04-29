@@ -10,7 +10,7 @@ import (
 
 const (
 	CONN_TYPE   = "tcp"
-	BUFFER_SIZE = 1024
+	BUFFER_SIZE = 65536
 )
 
 // If forever is true, it will run in an infinite loop accepting new
