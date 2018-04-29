@@ -17,8 +17,11 @@ func main() {
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
-	err := tcp2ws.Proxy(true, *lhost, *rhost)
-	if err != nil {
-		fmt.Println(err)
+	
+	for {
+		err := tcp2ws.Proxy(true, *lhost, *rhost)
+		if err != nil {
+			fmt.Println(err)
+		}
 	}
 }
