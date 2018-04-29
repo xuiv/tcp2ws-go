@@ -1,7 +1,7 @@
 package main
 
 import (
-  "github.com/mcclymont/tcp2ws-go"
+  "github.com/xuiv/tcp2ws-go"
   "fmt"
   "flag"
   "os"
